@@ -20,3 +20,9 @@ ON AT
 BEGIN
 INSERT INTO ATT(ATID) VALUES (new.ATID, DATETIME('now'));
 END
+
+
+
+Microsoft offers Azure cloud services for 12
+-months free period for university students.
+[https://azure.microsoft.com/en-gb/free/students.
