@@ -13,6 +13,7 @@ https://help.yourwebhoster.eu/en/support/solutions/articles/80000949039-how-to-v
 ######$$##
 https://fileproinfo.com/tools/viewer/pem#
 
+$$***READINGS :
 After you create a CSR (certificate signing request) and purchase a certificate, our Validation team validates and processes your certificate request. (Learn more about the certificate validation process.) Once validated, we issue your SSL Certificate and send it to you via email.
 You will need to upload your CSR file to the certificate service when you order it. This will be used to generate the certificate for your server. Some providers will have you copy the contents of the CSR file, while others will have you upload the file itself.
 
