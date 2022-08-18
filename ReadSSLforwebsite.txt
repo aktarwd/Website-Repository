@@ -1,0 +1,51 @@
+https://checkwebsitetools.com/report/freewha.com/SSL
+https://www.baeldung.com/openssl-self-signed-cert
+https://docs.microsoft.com/en-us/dotnet/core/additional-tools/self-signed-certificates-guide#with-openssl
+https://www.wowza.com/docs/how-to-create-a-self-signed-ssl-certificate
+https://www.digicert.com/kb/ssl-support/pem-ssl-creation.htm
+Decode in json :
+https://tools.keycdn.com/ssl
+Instructions android :
+https://cheapsslsecurity.com/blog/install-ssl-certificate-on-android/
+
+https://help.yourwebhoster.eu/en/support/solutions/articles/80000949039-how-to-verify-ssl-certificates-with-openssl-on-command-line
+
+######$$##
+https://fileproinfo.com/tools/viewer/pem#
+
+After you create a CSR (certificate signing request) and purchase a certificate, our Validation team validates and processes your certificate request. (Learn more about the certificate validation process.) Once validated, we issue your SSL Certificate and send it to you via email.
+You will need to upload your CSR file to the certificate service when you order it. This will be used to generate the certificate for your server. Some providers will have you copy the contents of the CSR file, while others will have you upload the file itself.
+
+
+Install OpenSSL software from http://www.openssl.org/.
+
+StepsIn the command line, enter openssl s_client -connect <hostname>:<port>.
+
+This opens an SSL connection to the specified hostname and port and prints the SSL certificate.
+
+Check the availability of the domain from the connection results.
+
+
+Decode certificate  own devices : command
+openssl x509 -in certificate.crt -text -noout
+
+
+Discover SSH keys
+
+To discover the SSH keys configured on your server, you need to create and run a scan.
+
+In your CertCentral account, select Discovery > Manage Discovery.
+
+On the Manage scans page, select Add scan.
+
+On the Add a scan page, in the Create a scan section, provide the required information to set up the scan. Then, select Next.
+
+On the Scan setting section, under Settings > Scan options, select Choose what to scan > Enable SSH key discovery.
+
+Select Save and run.
+
+Openssl package run : Check commands; 
+
+openssl s_client -connect example.com:443
+
+*******************************************
